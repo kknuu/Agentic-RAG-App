@@ -1,4 +1,4 @@
-# CrewAI RAG: Local PDF Q&A with Web Search Fallback
+# CrewAI RAG: Local LLM PDF Q&A with Tavily Web Search
  
 A Retrieval-Augmented Generation app that answers questions from your own PDFs using a **local LLM (via Ollama)**, and automatically falls back to a **live web search (Tavily)** when the PDF knowledge base doesn't have enough information. Multiple specialised agents (built with CrewAI handle retrieval, grading, web search, synthesis, and hallucination checking before you see a final answer.
  
@@ -58,7 +58,7 @@ Re-uploading a PDF with the same filename replaces its previously indexed chunks
 ## Project structure
  
 ```
-your-repo/
+Agentic-RAG-App/
 ├── app.py                  # Streamlit app (main entry point)
 ├── RAG.ipynb               # Exploratory / step-by-step build notebook
 ├── doc.pdf                 # PDF file to be added to chroma vector base
