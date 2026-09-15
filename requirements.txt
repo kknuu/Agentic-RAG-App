@@ -1,0 +1,13 @@
+streamlit
+python-dotenv
+langchain-core
+langchain-community
+langchain-chroma
+langchain-ollama
+langchain-text-splitters
+pydantic
+tavily-python
+crewai
+crewai-tools
+chromadb
+pypdf
